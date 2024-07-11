@@ -15,13 +15,20 @@
   <p align="center">
     This projects provides a testbed for learning temporal and the services incorporated on the framework.
 It is a work in progress!
-    <br />
-    <br />
-    <a href="https://karuru-new.kyosk.app/applib/#/">Kyosk App Library</a>
-    ·
-    <a href="https://karuru.kyosk.dev/admin-portal/home">Kyosk Portal Staging</a>
-    ·
-    <a href="https://karuru-new.kyosk.app/admin-portal/home">Kyosk Portal Production</a>
+
+[//]: # (    <br />)
+
+[//]: # (    <br />)
+
+[//]: # (    <a href="https://karuru-new.kyosk.app/applib/#/">Kyosk App Library</a>)
+
+[//]: # (    ·)
+
+[//]: # (    <a href="https://karuru.kyosk.dev/admin-portal/home">Kyosk Portal Staging</a>)
+
+[//]: # (    ·)
+
+[//]: # (    <a href="https://karuru-new.kyosk.app/admin-portal/home">Kyosk Portal Production</a>)
 </p>
 
 ### Setup
