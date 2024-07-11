@@ -32,17 +32,23 @@ object Versions {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-graphql")
     implementation("com.netflix.graphql.dgs:graphql-dgs-spring-graphql-starter")
+    implementation("com.graphql-java-kickstart:graphql-spring-boot-starter")
+    implementation("com.graphql-java-kickstart:graphql-java-tools")
+
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     implementation("org.springframework.kafka:spring-kafka")
+
     implementation("io.temporal:temporal-sdk:${Versions.temporalVersion}")
     implementation("io.temporal:temporal-testing:${Versions.temporalVersion}")
     implementation("io.temporal:temporal-opentracing:${Versions.temporalVersion}")
+
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
     annotationProcessor("org.projectlombok:lombok")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.boot:spring-boot-testcontainers")
     testImplementation("org.springframework.graphql:spring-graphql-test")

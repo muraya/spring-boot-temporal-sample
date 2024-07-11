@@ -1,1 +1,11 @@
-spring.application.name=spring-boot-temporal-sample
+spring:
+  data:
+    mongodb:
+      database: spring-boot-temporal
+      host: localhost
+      port: 27017
+  application:
+    name: spring-boot-temporal-sample
+
+server:
+  port: 9292
